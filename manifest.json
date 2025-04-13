@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Miro XML Exporter",
+  "version": "1.0",
+  "description": "Exporta tarjetas de Miro como archivo XML",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://miro.com/app/board/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
